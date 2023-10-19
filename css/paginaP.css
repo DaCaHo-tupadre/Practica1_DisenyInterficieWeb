@@ -1,0 +1,22 @@
+.menuPrincipal{
+    background: #902D10;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+ul{
+    list-style: none;
+    padding: 20px 20px;
+    
+}
+li{
+    display: inline;
+    padding: 20px 20px;
+}
+li a{
+    color: white;
+    font-size: 25px;
+
+    
+}
