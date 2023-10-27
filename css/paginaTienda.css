@@ -2,10 +2,12 @@
 
 h1{
     font-size: 90px;
+    padding-left: 30px;
 }
 hr{
     background-color: black;
     width: 90%;
+    height: 4px;
 }
 .productos-tienda{
     display: flex;
@@ -15,10 +17,9 @@ hr{
     height: auto;
 }
 .producto{
-    margin: 20px;
+    margin: 10px;
     background-color: white;
-    padding: 5px 10px 15px 10px;
-    border: 2px black solid;
+    border: 4px black solid;
     border-radius: 5%;
     display: flex;
     flex-direction: column;
@@ -26,13 +27,25 @@ hr{
     
 }
 .producto img{
-    width: 300px;
+    width: 400px;
     height: 300px;
-    border-radius: 5%;
-    margin: 5px;
+    border-radius: 5% 5% 0% 0%;
+    margin: 0px;
+    padding: 0px;
     object-fit: cover;
 }
 .producto p{
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    margin-left: 15px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.producto p:last-child{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    margin-left: 25px;
     font-size: 25px;
+    color: rgb(135, 0, 9);
+    font-weight: 600;
 }

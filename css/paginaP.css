@@ -26,6 +26,14 @@ body {
     font-weight: 700;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.menuPrincipal a:hover{
+    text-decoration: underline overline black;
+    color: black;
+    font-size: 35px;
+    padding: 20px;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .menuPrincipal img{
     padding: 10px;
 }
@@ -119,7 +127,16 @@ body {
     padding: 8px;
     color: #ffffff;
     border-radius: 10%;
-
+   
+}
+.nuestrasMotos-motos p:hover{
+    margin: 15px auto 5px;
+    background-color: rgb(135, 0, 9);
+    border: 1px black solid;
+    padding: 14px;
+    color: #ffffff;
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px black;
 }
 .nuestrasOfertas{
     display: flex;
@@ -141,6 +158,16 @@ body {
     border-radius: 45%;
     padding: 20px;
     font-size: 20px;
+}
+.nuestrasOfertas p:last-child:hover{
+    margin: 20px auto;
+    background-color: rgb(135, 0, 9);
+    color: white;
+    border: 2px black solid;
+    border-radius: 45%;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: underline overline white;
 }
 .uneteNosotros{
     background-color:black;
